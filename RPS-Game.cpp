@@ -6,7 +6,6 @@
 #include <conio.h>
 
 int main(){
-    // Rock Paper scissor game: 
     std::vector<std::string> choices{"rock", "paper", "scissors"};
     std::string computer_choice;
     std::string user_choice;
@@ -28,7 +27,8 @@ int main(){
 
         std::cout << "Invalid choice. Please try again" << '\n';
     }
-    //generate random choice for use
+    
+    //Generate random choice
 
     std::random_device rd;
     std::mt19937 gen(rd());
